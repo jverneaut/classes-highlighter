@@ -4,4 +4,45 @@ body {
   width: 400px;
   height: 400px;
   font-family: system-ui;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#root {
+  width: 100%;
+  padding: 12px;
+  box-sizing: border-box;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+li {
+  font-size: 12px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  line-height: 1.3;
+
+  &:hover {
+    opacity: 0.6;
+  }
+}
+
+li.active {
+  opacity: 1;
+  color: red;
+}
+
+li strong {
+  font-weight: bold;
+}
+
+li span {
+  display: block;
+  margin-left: 12px;
 }
