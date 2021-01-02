@@ -1,0 +1,9 @@
+{
+  "name": "Classes Highlighter",
+  "version": "1.0",
+  "description": "Lorem ipsum",
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "manifest_version": 2
+}
